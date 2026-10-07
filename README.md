@@ -1,34 +1,28 @@
-# Ali Kassem Portfolio
+# Ali Kassem — Portfolio
 
-My personal portfolio website.
+My personal software development portfolio showcasing my projects, skills, and experience.
 
-## When I Start Working
+## Live Portfolio
 
-Open PowerShell and run:
+[View Portfolio](https://alikassem877.github.io/my-portfolio/)
 
-```powershell
-cd C:\Users\User\Projects\Portfolio
-git pull
-code .
-```
+## About
 
-Then make and test my changes.
+The portfolio highlights my work as a Junior Software Engineer and Full-Stack Developer, including projects built with technologies such as C#, ASP.NET Core, TypeScript, Next.js, and PostgreSQL.
 
-## When I Finish Working
+## Featured Projects
 
-Save all files, then run:
+- **Dealer SaaS** — Multi-tenant automotive dealership management platform.
+- **Baytak Care** — Remote property monitoring platform developed during my TechTalks Software Engineering Internship.
+- **BankSystem** — Banking system backend built with ASP.NET Core using a layered architecture.
 
-```powershell
-cd C:\Users\User\Projects\Portfolio
-git status
-git add .
-git commit -m "Update portfolio"
-git push
-git status
-```
+## Technologies
 
-Change `"Update portfolio"` to describe what I actually changed when possible.
+- HTML
+- CSS
+- JavaScript
 
-## Workflow
+## Connect
 
-**Pull → Code → Test → Commit → Push**
+- [GitHub](https://github.com/alikassem877)
+- [LinkedIn](https://www.linkedin.com/in/alikassem877/)
