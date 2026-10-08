@@ -204,6 +204,41 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.15; letter-spacing: -
   color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
 }
 
+
+/* Project links */
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease,
+              border-color 0.2s ease,
+              transform 0.2s ease;
+}
+
+.project-link:hover {
+  background-color: color-mix(in srgb, var(--accent) 10%, transparent);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.project-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.project-link .fa-arrow-up-right-from-square {
+  font-size: 0.75rem;
+}
+
+
 /* Contact */
 .contact-list { margin-top: 12px; }
 .contact-list a {
